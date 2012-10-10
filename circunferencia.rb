@@ -7,7 +7,7 @@ class Circunferencia
 		@p = perimetro
 	end
 
-	def radio(p)
-		@r = p / (3.12 * 2)
+	def radio()
+		@p / (3.14 * 2)
 	end
 end
