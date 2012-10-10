@@ -3,4 +3,8 @@
 require "circunferencia.rb"
 require "test/unit"
 
-class 
+class TestCircunferencia < Test::Unit::TestCase
+
+	def test_circunferencia
+	end
+end
