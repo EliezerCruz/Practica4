@@ -7,6 +7,6 @@ class TestCircunferencia < Test::Unit::TestCase
 
 	def test_circunferencia
 
-		assert_raise( RuntimeError ){ circunferencia.new('s') }		
+		assert_raise( RuntimeError ){ Circunferencia.new('s') }		
 	end
 end

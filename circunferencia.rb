@@ -3,7 +3,7 @@
 class Circunferencia
 
 	def initialize(perimetro)
-		raise unless num.is_a(Numeric)
+		raise unless perimetro.is_a?(Numeric)
 		@p = perimetro
 	end
 
