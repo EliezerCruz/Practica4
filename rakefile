@@ -2,5 +2,7 @@ task :default => [:test]
 
 task :test do
 
-	ruby "-I. tc_circunferencia.rb"
+	 ruby "-ILIB TEST/tc_circunferencia.rb"
+
+	#	ruby "-I. tc_circunferencia.rb"
 end
